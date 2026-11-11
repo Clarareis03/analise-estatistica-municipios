@@ -1,0 +1,57 @@
+RESULTADOS DA INFERÊNCIA ESTATÍSTICA
+Nível de significância: 5% | Confiança dos intervalos: 95%
+Amostras: 30 municípios por estado (PB e RN)
+
+======================================================================
+ITEM 3 - INTERVALOS DE CONFIANÇA (rendimento até 1/2 SM)
+======================================================================
+Paraíba - Média dos percentuais (t de Student): 50.04% (IC 95%: 48.55% a 51.54%)
+Paraíba - Proporção clássica (z, Wald, n = 30): 50.04% (IC 95%: 32.15% a 67.94%)
+Rio Grande do Norte - Média dos percentuais (t de Student): 49.11% (IC 95%: 47.56% a 50.66%)
+Rio Grande do Norte - Proporção clássica (z, Wald, n = 30): 49.11% (IC 95%: 31.22% a 67.00%)
+
+======================================================================
+ITEM 3 - TESTE PARA A DIFERENÇA ENTRE PB E RN
+======================================================================
+
+Teste: t de Welch (percentuais municipais)
+H0: As proporções (médias dos percentuais) de PB e RN são iguais
+H1: As proporções (médias dos percentuais) de PB e RN são diferentes
+Estatística = 0.885, gl = 57.9, p = 0,3796, α = 0.05
+Diferença PB - RN = 0.933 (IC 95%: -1.177 a 3.043)
+Decisão: Não rejeita H0
+
+Teste: z para duas proporções (n = 30 por grupo)
+H0: As proporções (médias dos percentuais) de PB e RN são iguais
+H1: As proporções (médias dos percentuais) de PB e RN são diferentes
+Estatística = 0.072, p = 0,9424, α = 0.05
+Diferença PB - RN = 0.933 (IC 95%: -24.368 a 26.234)
+Decisão: Não rejeita H0
+
+======================================================================
+ITEM 4 - IDEB (ANOS INICIAIS)
+======================================================================
+Normalidade (Shapiro-Wilk): PB p = 0,2271 | RN p = < 0,001
+Variâncias: F = 0.883 (gl = 28;28), p = 0,7453 [Levene p = 0,5252] -> variâncias iguais
+
+Teste: t de Student (variâncias iguais)
+H0: As médias de PB e RN são iguais (μ_PB = μ_RN)
+H1: As médias de PB e RN são diferentes (μ_PB ≠ μ_RN)
+Estatística = 3.031, gl = 56.0, p = 0,0037, α = 0.05
+Diferença PB - RN = 0.541 (IC 95%: 0.184 a 0.899)
+Decisão: Rejeita H0
+Verificação (Mann-Whitney): p = 0,0017
+
+======================================================================
+ITEM 5 - SALÁRIO MÉDIO MENSAL
+======================================================================
+Normalidade (Shapiro-Wilk): PB p = 0,0049 | RN p = 0,0793
+Variâncias: F = 0.991 (gl = 29;29), p = 0,9813 [Levene p = 0,9047] -> variâncias iguais
+
+Teste: t de Student (variâncias iguais)
+H0: As médias de PB e RN são iguais (μ_PB = μ_RN)
+H1: As médias de PB e RN são diferentes (μ_PB ≠ μ_RN)
+Estatística = -0.460, gl = 58.0, p = 0,6469, α = 0.05
+Diferença PB - RN = -0.033 (IC 95%: -0.178 a 0.112)
+Decisão: Não rejeita H0
+Verificação (Mann-Whitney): p = 0,3095
