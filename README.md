@@ -1,17 +1,47 @@
-# Analise estatistica de municipios
 
-Estrutura inicial para analise dos dados dos municipios da Paraiba e do Rio
-Grande do Norte.
+# Análise Estatística dos Municípios da Paraíba e do Rio Grande do Norte
 
-## Estrutura
+## Sobre o projeto
 
-- `data/raw/`: arquivos Excel originais.
-- `data/processed/`: amostras e dados processados.
-- `src/`: codigo de carregamento, amostragem, analise e visualizacao.
-- `outputs/`: graficos, tabelas e resultados de testes.
-- `notebooks/`: notebooks exploratorios.
-- `tests/`: testes automatizados.
+Projeto desenvolvido na disciplina de Métodos Estatísticos
+Aplicados às Ciências Tecnológicas, da Universidade Federal
+da Paraíba (UFPB).
 
-Os arquivos em `data/raw/` e `data/processed/` sao apenas placeholders. Os CSVs
-estao vazios, e os arquivos `.xlsx` contem instrucoes em texto, nao planilhas
-validas. Substitua-os pelos dados reais antes de executar analises.
+O objetivo é realizar uma análise estatística comparativa
+entre os municípios da Paraíba e do Rio Grande do Norte,
+considerando indicadores de educação, rendimento e salário.
+
+## Tecnologias
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- SciPy
+- Statsmodels
+
+## Metodologia
+
+- Amostragem aleatória simples;
+- Estatística descritiva;
+- Análise exploratória;
+- Intervalos de confiança;
+- Testes de hipóteses.
+
+## Como executar
+
+1. Clone o repositório.
+2. Instale as dependências.
+3. Execute o arquivo principal.
+
+```bash
+pip install -r requirements.txt
+python -m src.main
+```
+
+## Integrantes
+
+- Ayra 
+- Maria Clara Reis
+- Matheus Belchior
